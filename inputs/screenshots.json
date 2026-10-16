@@ -1,0 +1,188 @@
+{
+  "description": "Real app captures, proportionally resized. iPhone and iPad captures use existing hardware artwork and exact screen masks; Mac has no added frame or corner clipping. No generated imagery or UI retouching.",
+  "assets": {
+    "reader": {
+      "source": "marketing/app-store/raw-captures/en-US/iphone-6.3/01_hero.png",
+      "source_sha256": "c6817bb70437ecab7b7bc0450b145cfc909af1551d0ae1a015228be9afe2a2e1",
+      "capture_sha256": "c6817bb70437ecab7b7bc0450b145cfc909af1551d0ae1a015228be9afe2a2e1",
+      "captured_at_utc": "2026-10-15T20:52:50.459289+00:00",
+      "reused": false,
+      "configuration": "Debug",
+      "app_version": "1.0",
+      "app_build": "7",
+      "source_commit": "6bc4eb4eb00d82d2eb01cfb4946acdc820a5624b",
+      "app_binary_sha256": "b29d8b0056751e6257c0d6be04bf17c055b3490131cf8d0ad4f4ff26725d6f31",
+      "publication_ready": false,
+      "variants": [
+        {
+          "file": "reader-480.webp",
+          "width": 480,
+          "height": 981,
+          "sha256": "bd087821572786f58f4b43beb940598dcd50573bcf9a81dc7f091f518818c599"
+        },
+        {
+          "file": "reader-960.webp",
+          "width": 960,
+          "height": 1963,
+          "sha256": "65248d392d06505ee30302940dc1b3e43527503c38dee32a5fdde5ac382cfebb"
+        }
+      ],
+      "frame": {
+        "source": "marketing/app-store/assets/device-frames/iPhone 17 Pro - Silver - Portrait.png",
+        "sha256": "5b5219661fea8955d72e5e9f0d6c81b6b0631f86f57967b66fb10a614e940763",
+        "source_pack": "Koubou 0.20.0 cached frame pack",
+        "screen_bounds": {
+          "x": 72,
+          "y": 69,
+          "width": 1206,
+          "height": 2622
+        },
+        "publication_ready": false
+      }
+    },
+    "cards": {
+      "source": "marketing/app-store/raw-captures/en-US/iphone-6.3/03_key_feature.png",
+      "source_sha256": "9ff0bf195593110058f1704aa471f9bc845a449aa19bfb5d99801fb35377a323",
+      "capture_sha256": "9ff0bf195593110058f1704aa471f9bc845a449aa19bfb5d99801fb35377a323",
+      "captured_at_utc": "2026-10-15T20:53:00.788867+00:00",
+      "reused": false,
+      "configuration": "Debug",
+      "app_version": "1.0",
+      "app_build": "7",
+      "source_commit": "6bc4eb4eb00d82d2eb01cfb4946acdc820a5624b",
+      "app_binary_sha256": "b29d8b0056751e6257c0d6be04bf17c055b3490131cf8d0ad4f4ff26725d6f31",
+      "publication_ready": false,
+      "variants": [
+        {
+          "file": "cards-480.webp",
+          "width": 480,
+          "height": 981,
+          "sha256": "41ba845e63735bbb0c1710cb80838ade5bdf0ba77de8ada5deafb2344748d861"
+        },
+        {
+          "file": "cards-960.webp",
+          "width": 960,
+          "height": 1963,
+          "sha256": "7b374478284a67ff54087c24cb85f819bb56ebac988e09acda1e968d47338b61"
+        }
+      ],
+      "frame": {
+        "source": "marketing/app-store/assets/device-frames/iPhone 17 Pro - Silver - Portrait.png",
+        "sha256": "5b5219661fea8955d72e5e9f0d6c81b6b0631f86f57967b66fb10a614e940763",
+        "source_pack": "Koubou 0.20.0 cached frame pack",
+        "screen_bounds": {
+          "x": 72,
+          "y": 69,
+          "width": 1206,
+          "height": 2622
+        },
+        "publication_ready": false
+      }
+    },
+    "settings": {
+      "source": "marketing/app-store/raw-captures/en-US/iphone-6.3/05_personalize.png",
+      "source_sha256": "eeb47abd795e942595d527ba7cd2bac2531a673dec242914b811b04c3c477bc3",
+      "capture_sha256": "eeb47abd795e942595d527ba7cd2bac2531a673dec242914b811b04c3c477bc3",
+      "captured_at_utc": "2026-10-15T20:53:23.333622+00:00",
+      "reused": false,
+      "configuration": "Debug",
+      "app_version": "1.0",
+      "app_build": "7",
+      "source_commit": "6bc4eb4eb00d82d2eb01cfb4946acdc820a5624b",
+      "app_binary_sha256": "b29d8b0056751e6257c0d6be04bf17c055b3490131cf8d0ad4f4ff26725d6f31",
+      "publication_ready": false,
+      "variants": [
+        {
+          "file": "settings-480.webp",
+          "width": 480,
+          "height": 981,
+          "sha256": "a707d3cd5d1613d3e4c25922e1899afc135d30d6b1b179581fdb7f216dc3fa6b"
+        },
+        {
+          "file": "settings-960.webp",
+          "width": 960,
+          "height": 1963,
+          "sha256": "ef0262a90568504db4ae7d9c497d7c58d88675d15bb35b0c70a5cfd552eabb10"
+        }
+      ],
+      "frame": {
+        "source": "marketing/app-store/assets/device-frames/iPhone 17 Pro - Silver - Portrait.png",
+        "sha256": "5b5219661fea8955d72e5e9f0d6c81b6b0631f86f57967b66fb10a614e940763",
+        "source_pack": "Koubou 0.20.0 cached frame pack",
+        "screen_bounds": {
+          "x": 72,
+          "y": 69,
+          "width": 1206,
+          "height": 2622
+        },
+        "publication_ready": false
+      }
+    },
+    "library": {
+      "source": "marketing/app-store/raw-captures/en-US/ipad-13/04_collection.png",
+      "source_sha256": "a639fd9aed726509a2ae05572cdffd52bf823d7d1a90a83ac28f407d045d9ae4",
+      "capture_sha256": "a639fd9aed726509a2ae05572cdffd52bf823d7d1a90a83ac28f407d045d9ae4",
+      "captured_at_utc": "2026-10-13T11:00:48.780577+00:00",
+      "reused": true,
+      "configuration": "Debug",
+      "app_version": "1.0",
+      "app_build": "7",
+      "source_commit": "6bc4eb4eb00d82d2eb01cfb4946acdc820a5624b",
+      "app_binary_sha256": "6c443464aea3e12b0dfc3875e1ff8e9fa381455b6d3006ec810a2ba5516a2c01",
+      "publication_ready": false,
+      "variants": [
+        {
+          "file": "library-640.webp",
+          "width": 640,
+          "height": 835,
+          "sha256": "73ee18d5b24724bec83dc1a4c39788110cdf2d726849a1197fa9548893085d66"
+        },
+        {
+          "file": "library-1200.webp",
+          "width": 1200,
+          "height": 1565,
+          "sha256": "9ee5eaa52a34c0695d91c4d4cb43d330f6dfe900538a6a999c50e2ba2048c575"
+        }
+      ],
+      "frame": {
+        "source": "marketing/app-store/assets/device-frames/iPad Pro 13 - M4 - Space Gray - Portrait.png",
+        "sha256": "58d5bc85481bd5760ce174739a29580e925a2babcccc2fbed38dbfecff76f26e",
+        "source_pack": "Koubou 0.20.0 cached frame pack",
+        "screen_bounds": {
+          "x": 118,
+          "y": 124,
+          "width": 2064,
+          "height": 2752
+        },
+        "publication_ready": false
+      }
+    },
+    "mac": {
+      "source": "marketing/app-store/raw-captures/en-US/mac-16x10/01_hero.png",
+      "source_sha256": "f15d5aeec13f53695ec34c0a9dda8a8637e8335d4069d4fb4df0a9a8dc954cc1",
+      "capture_sha256": "f15d5aeec13f53695ec34c0a9dda8a8637e8335d4069d4fb4df0a9a8dc954cc1",
+      "captured_at_utc": "2026-10-15T21:12:11.550040+00:00",
+      "reused": false,
+      "configuration": "Debug",
+      "app_version": "1.0",
+      "app_build": "7",
+      "source_commit": "6bc4eb4eb00d82d2eb01cfb4946acdc820a5624b",
+      "app_binary_sha256": "5ba911feaedb49c3b95c6ab959a47f3531518433e568ff40cf4fb88c57cdeb5e",
+      "publication_ready": false,
+      "variants": [
+        {
+          "file": "mac-960.webp",
+          "width": 960,
+          "height": 600,
+          "sha256": "bd1f63298614cc4a6833777bfd7109510502f974f981eee9695ff443cbf56906"
+        },
+        {
+          "file": "mac-1600.webp",
+          "width": 1600,
+          "height": 1000,
+          "sha256": "87498ab7edd75890552c1f238c3d0cc8dfa9a4e4167122b65dfa535362aaad9c"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+build/
+.site-*/
+
+# Local credentials and caches
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+*.key
+settings.local.json

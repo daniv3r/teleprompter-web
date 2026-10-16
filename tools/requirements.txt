@@ -1,0 +1,2 @@
+# Optional: only for regenerating screenshots, not for building or publishing.
+Pillow==12.3.0
