@@ -1,8 +1,33 @@
 # Build inputs and publication
 
 Run commands from the web repository root. Builds need Python 3.10+ and its standard library only.
-The current inputs deliberately block publication while contact, owner, policy, and screenshot
-approval details remain incomplete. Source code can be pushed without deploying the website.
+Owner contact details, worldwide territory intent, privacy approval, and screenshot/frame approvals
+were recorded on October 17, 2026. GitHub's Pages API confirmed the default project URL and no
+custom domain. Source code can be pushed without deploying the website.
+
+## Configured public addresses
+
+These addresses become available after a successful deployment:
+
+- Home / marketing: https://daniv3r.github.io/teleprompter-web/
+- Support: https://daniv3r.github.io/teleprompter-web/support.html
+- Privacy: https://daniv3r.github.io/teleprompter-web/privacy.html
+- Terms: https://daniv3r.github.io/teleprompter-web/terms.html
+
+Public support contact: fun-tapper-6s@icloud.com. Legal owner: Daniil Veramei.
+`Worldwide` records the owner's all-countries intent; this website update does not change App Store
+territory settings. No App Store download URL is supplied yet.
+
+Hosting is GitHub Pages. GitHub confirms security logging of visitor IP addresses; its cited
+privacy policy does not give a fixed Pages-specific retention period. The site explains that
+GitHub controls these records, rather than inventing a deletion schedule. Sources:
+[Pages data collection](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection)
+and [GitHub retention policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#security-and-retention).
+
+The owner chose to retain support emails and attachments while resolving the request, then delete
+them within 30 days after resolution. This is an inbox-handling policy, not an automated website
+deletion feature. Owner approval is recorded for current privacy text, screenshots, and device
+artwork. It does not create new app runtime or final-build verification evidence.
 
 ## Identity snapshot
 
@@ -45,14 +70,14 @@ python3 -m unittest discover -s tests -v
 python3 build.py --publish-check
 ```
 
-The second command is expected to fail with current inputs. Before it can pass, supply and review:
+The second command must pass before publication. Keep these inputs reviewed and current:
 
 - Public name confirmation, final domain, monitored support email, legal owner, and territories in Docs.
 - Final HTTPS marketing, support, and privacy URLs, then refresh the snapshot. Keep `support.html`
   and `privacy.html` paths under the chosen Pages project base path.
 - Hosting provider, actual hosting request-log handling, support-message retention, and policy date.
   Do not invent a hosting retention period or treat it as controlled by this website.
-- `privacy_approved` only after the app data-flow review and owner policy review are complete.
+- `privacy_approved` records owner policy approval; app verification evidence remains separate.
 - Per-asset and per-frame `publication_ready`, plus `screenshots_approved`, after publication review.
 
 A store URL is optional for a prelaunch website. Add it to Docs only after verifying the app listing

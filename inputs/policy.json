@@ -1,8 +1,8 @@
 {
-  "privacy_approved": false,
-  "screenshots_approved": false,
-  "hosting_provider": null,
-  "hosting_log_retention": null,
-  "support_retention": null,
-  "policy_date": "2026-10-16"
+  "privacy_approved": true,
+  "screenshots_approved": true,
+  "hosting_provider": "GitHub Pages (GitHub)",
+  "hosting_log_retention": "Managed by GitHub under its privacy statement. The cited policy does not specify a fixed retention period for GitHub Pages request logs.",
+  "support_retention": "Support emails and attachments are kept while a request is being resolved and deleted within 30 days after it is resolved.",
+  "policy_date": "2026-10-17"
 }

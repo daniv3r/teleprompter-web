@@ -21,9 +21,9 @@ python3 -m unittest discover -s tests -v
 python3 build.py --publish-check
 ```
 
-The publication check currently reports missing public details and approvals. The local preview
-shows a status banner and asks search engines not to index it. Nothing publishes on a normal build
-or Git push.
+Public contact details and owner approvals were recorded on October 17, 2026. Publication checks
+validate those inputs before deployment. Incomplete inputs show a preview banner and ask search
+engines not to index the site. Nothing publishes on a normal build or Git push.
 
 ## Repository layout
 
