@@ -20,7 +20,7 @@ IDENTITY_KEYS = (
     'legal_owner', 'version', 'price_model', 'primary_locale', 'store_url',
 )
 PAGES = {
-    'index.html': ('Your words. Your pace.', 'Prepare your script and practice talks with word-by-word guidance on iPhone, iPad, and Mac.'),
+    'index.html': ('Practice your next talk', 'Add your script and read it at your own speed on iPhone, iPad, and Mac.'),
     'support.html': ('Support', 'Get started with Speech Deck, adjust reading settings, resume a rehearsal, and find help.'),
     'privacy.html': ('Privacy', 'How Speech Deck handles scripts, reading preferences, diagnostics, website requests, and support messages.'),
     'terms.html': ('Terms of use', 'Read the terms for the free first release of Speech Deck and learn about local script storage.'),
